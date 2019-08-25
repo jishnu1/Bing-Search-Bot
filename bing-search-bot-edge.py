@@ -8,5 +8,7 @@ ch = 'A'
 
 for i in range(0, 34):
     driver.get(url+ch)
+    # time.sleep(1)
+    # driver.get(url+ch+ch)
     ch = chr(ord(ch) + 1)
     time.sleep(1)
